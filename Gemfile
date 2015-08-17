@@ -15,7 +15,7 @@ group :development, :test do
   # The following optional lines are part of the advanced setup.
   gem 'guard-rspec', '4.6.0'
   gem 'spork-rails', '4.0.0'
-  gem 'guard-spork', '1.5.0'
+  gem 'guard-spork', '2.1.0'
   gem 'childprocess', '0.3.6'
 end
 
@@ -52,4 +52,5 @@ end
 group :production do
   gem 'pg', '0.15.1'
   gem 'rails_12factor', '0.0.2'
+
 end
